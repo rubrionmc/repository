@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rubrion.common",
+    "module": "api",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "api-1.0.1.jar",
+          "url": "api-1.0.1.jar",
+          "size": 16016,
+          "sha512": "aeff25d25f769edb07a8a00420a9e7fe4cc9b23719da0f818b24185515809343f83aa3736056a5f31f38139b0803075fbc37fc309fb50c699fc9b5f593728c44",
+          "sha256": "86f1ad00e4265cd004ff0654d3181822ec7579b4b589e4e24c5b1bc91f8984bd",
+          "sha1": "54acbab594aa51f18eb51167e4267976a67fd1f7",
+          "md5": "f2cd8101b2f1a470b7190df8ad505521"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-1.0.1.jar",
+          "url": "api-1.0.1.jar",
+          "size": 16016,
+          "sha512": "aeff25d25f769edb07a8a00420a9e7fe4cc9b23719da0f818b24185515809343f83aa3736056a5f31f38139b0803075fbc37fc309fb50c699fc9b5f593728c44",
+          "sha256": "86f1ad00e4265cd004ff0654d3181822ec7579b4b589e4e24c5b1bc91f8984bd",
+          "sha1": "54acbab594aa51f18eb51167e4267976a67fd1f7",
+          "md5": "f2cd8101b2f1a470b7190df8ad505521"
+        }
+      ]
+    }
+  ]
+}
