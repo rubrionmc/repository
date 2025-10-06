@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rubrion.config",
+    "module": "common",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "common-1.0.1.jar",
+          "url": "common-1.0.1.jar",
+          "size": 33017,
+          "sha512": "905ad00bfb07be6f34a3802a5432854331ae11ff223a0215117ed5d441dfcafd0e9b5104b484fc8661bf66cec7ecd020c470392dd921567ff37dcd859e1c15b8",
+          "sha256": "f3743b156eb1148d667f634c76f9f1e1816e1b3144a776be89ef02294bd7f7ea",
+          "sha1": "94fb8aa1b4e51864a1610bef743c740ab7dbe803",
+          "md5": "372f2dccd8aeaa3f9c0472ca16acc91d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.rubrion.config",
+          "module": "api",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-1.0.1.jar",
+          "url": "common-1.0.1.jar",
+          "size": 33017,
+          "sha512": "905ad00bfb07be6f34a3802a5432854331ae11ff223a0215117ed5d441dfcafd0e9b5104b484fc8661bf66cec7ecd020c470392dd921567ff37dcd859e1c15b8",
+          "sha256": "f3743b156eb1148d667f634c76f9f1e1816e1b3144a776be89ef02294bd7f7ea",
+          "sha1": "94fb8aa1b4e51864a1610bef743c740ab7dbe803",
+          "md5": "372f2dccd8aeaa3f9c0472ca16acc91d"
+        }
+      ]
+    }
+  ]
+}
