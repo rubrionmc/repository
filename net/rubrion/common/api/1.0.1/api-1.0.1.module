@@ -27,11 +27,11 @@
         {
           "name": "api-1.0.1.jar",
           "url": "api-1.0.1.jar",
-          "size": 19368,
-          "sha512": "a2564da08ccfdde25fea705a8b9daac11472cda85e551f475bb24776de4b9d250bcccd962855e1b1efd4d5c4472b7df8d43132de17e4903f4e9feccbcfb44c29",
-          "sha256": "10b10ae34d5fe0865bc0c76068d610d1ef4fe046b8596e39f2bd1f8082e0ba45",
-          "sha1": "0ead2770e689e801bdf3a1fa7085fa4f82c0312c",
-          "md5": "8a296ed51679774739afebf7c66d08b0"
+          "size": 8965,
+          "sha512": "9093d4cfbdd29c6ec646484286a8d1ba32bc64b8bb7adf9291e96beba6a7593a92968e15815aaf40be1c15bd7ae41251a4b5deba9f01696eb0872d05ec458767",
+          "sha256": "0973adc40ba6762b352375c2aad2daf66cd90671ddc942b462e7f1e2a7ee7137",
+          "sha1": "43aa28e6eff1dd6074366da4dc131279dd8f0c80",
+          "md5": "3b1f8ee9b12bb0a7612afba464211d39"
         }
       ]
     },
@@ -44,38 +44,15 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
-      "dependencies": [
-        {
-          "group": "com.google.code.gson",
-          "module": "gson",
-          "version": {
-            "requires": "2.13.1"
-          }
-        },
-        {
-          "group": "org.yaml",
-          "module": "snakeyaml",
-          "version": {
-            "requires": "2.2"
-          }
-        },
-        {
-          "group": "com.moandjiezana.toml",
-          "module": "toml4j",
-          "version": {
-            "requires": "0.7.2"
-          }
-        }
-      ],
       "files": [
         {
           "name": "api-1.0.1.jar",
           "url": "api-1.0.1.jar",
-          "size": 19368,
-          "sha512": "a2564da08ccfdde25fea705a8b9daac11472cda85e551f475bb24776de4b9d250bcccd962855e1b1efd4d5c4472b7df8d43132de17e4903f4e9feccbcfb44c29",
-          "sha256": "10b10ae34d5fe0865bc0c76068d610d1ef4fe046b8596e39f2bd1f8082e0ba45",
-          "sha1": "0ead2770e689e801bdf3a1fa7085fa4f82c0312c",
-          "md5": "8a296ed51679774739afebf7c66d08b0"
+          "size": 8965,
+          "sha512": "9093d4cfbdd29c6ec646484286a8d1ba32bc64b8bb7adf9291e96beba6a7593a92968e15815aaf40be1c15bd7ae41251a4b5deba9f01696eb0872d05ec458767",
+          "sha256": "0973adc40ba6762b352375c2aad2daf66cd90671ddc942b462e7f1e2a7ee7137",
+          "sha1": "43aa28e6eff1dd6074366da4dc131279dd8f0c80",
+          "md5": "3b1f8ee9b12bb0a7612afba464211d39"
         }
       ]
     }
